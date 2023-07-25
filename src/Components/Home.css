@@ -1,11 +1,11 @@
 #SweetHome{
     height: 100vh;
-    width: 100vw;
+    width: 97vw;
 }
 .computer
 {
     text-decoration: none;
-    color: greenyellow;
+    color: red;
 }
 .Topver{
     display: flex;
@@ -13,7 +13,6 @@
     gap: 1rem;
     width: 90%;
     height: 470px;
-    /* border: 1px solid hotpink; */
 }
 .Topper{
     padding: 12px 23px;
@@ -33,11 +32,9 @@
 #TopLeft{
     height: 98%;
     width: 60%;
-    /* border: 1px solid purple; */
 }
 #TopRight{
     height: 48%;
-    /* border: 1px solid blue; */
 }
 #BottomRight{
     height: 48%;
@@ -106,7 +103,6 @@
     right: 0%;
 }
 
-/* ReTop */
 .firstPage{
     display: flex;
     flex-direction: column;
@@ -123,8 +119,6 @@
 .side-diff{
     width: 87%;
 }
-
-/* Latest Story */
 .DownSide{
     display: flex;
     flex-direction: column;
@@ -153,8 +147,6 @@
     background-color: greenyellow;
     width: 100%;
 }
-
-/* The latest */
 
 .const{
     width: 87%;
@@ -185,13 +177,11 @@
     max-height: 38%;
     margin-right: 20px;
 }
-/* Home pe Big Image */
 
 #bigImg{
     display: block;
     height: 100%;
-    /* width: 45vw; */
-    width: 550px;
+    width: 450px;
     border: 1px solid red;
 }
 .baada
@@ -220,5 +210,4 @@
     gap: 20px;
     align-items: center;
     border-bottom: 2px solid blue;
-    /* width: 40%; */
 }

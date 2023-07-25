@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import TopPost from './TopPost';
 import DownArrow from "./downArrow.svg"
-import "./Media.css";
 
 function Allpage() {
     const [data, setData] = useState();
@@ -16,7 +15,9 @@ function Allpage() {
     //     date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
 
     useEffect(() => {
-        var url = "https://blogdata.onrender.com/" + params.category;
+        var url="https://niyaz30cs.onrender.com/"+params.category;
+        
+        // var url = "https://blogdata.onrender.com/" + params.category;
         // var url = "https://newsapi.org/v2/everything?q=" +
         //     params.category +
         //     "&from=" +

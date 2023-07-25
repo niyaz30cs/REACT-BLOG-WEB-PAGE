@@ -20,11 +20,11 @@ function Info() {
       <div className="infoHead">
         <img src={man} alt="man" />
         <div className="headtitle">
-          <p>Dmitry Nozhenko</p>
+          <h2>Niyaz Alam</h2>
           <p>11-06-2023 10 min read</p>
         </div>
       </div>
-      <div className="tata">
+      <div className="socialMedia">
       <img src={facebook} alt="facebook" className="facebook" />
       <img src={twitter} alt="twitter" className="facebook"/>
       <img src={instagram} alt="instagram" className="facebook"/>

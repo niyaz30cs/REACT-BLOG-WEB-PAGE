@@ -11,16 +11,16 @@ function ReTop(props) {
                 <h1 className="line">Top Post</h1>
                 <div className="mainfake">
                     <img
-                        src={data4[28].urlToImage}
-                        alt={<img src="" alt="The" />}
+                        src={data4[31].urlToImage}
+                        alt="loading"
                         className="reimage"
                     />
                     <div className="recontant">
-                        <Link to={`/Info/${data4[28].title}`} state={data4[28]}>
-                            <h4 className="">{data4[28].title} </h4>
+                        <Link to={`/Info/${data4[31].title}`} state={data4[31]}>
+                            <h5 className="linkSize">{data4[31].title} </h5>
                         </Link>
-                        <p className="">{data4[28].content}</p>
-                        <p className='published'>{data4[28].publishedAt}</p>
+                        <h5 className="Content">{data4[31].content}</h5>
+                        <p className='published'>{data4[31].publishedAt}</p>
                     </div>
                 </div>
 
@@ -28,37 +28,40 @@ function ReTop(props) {
                 {/* Down Tree */}
 
                 <div className="mainfake">
-                    <img className="reimage" src={data1[88].urlToImage} alt="loding...." />
+                    <img className="reimage" src={data1[88].urlToImage} alt="loading" />
                     <div className="recontant">
-                        <Link to={`/ClickPage/${data1[88].title}`} state={data1[88]}>
+                        <Link to={`/Info/${data1[88].title}`} state={data1[88]}>
                             <h5 className="">{data1[88].title} </h5>
                         </Link>
-                        <p>{data1[88].content}</p>
-                        <br />
+                        <h5>{data1[88].content}</h5>
+                        {/* <br /> */}
                     </div>
-                    <hr />
+                    
+
                 </div>
                 <div className="mainfake">
-                    <img className="reimage" src={data3[64].urlToImage} alt="loding...." />
+                    <img className="reimage" src={data3[68].urlToImage} alt="loading" />
                     <div className="recontant">
-                        <Link to={`/ClickPage/${data3[64].title}`} state={data3[64]}>
-                            <h5 className="">{data3[64].title} </h5>
+                        <Link to={`/Info/${data3[68].title}`} state={data3[68]}>
+                            <h4 className="">{data3[68].title} </h4>
                         </Link>
-                        <p>{data3[64].content}</p>
-                        <br />
+                        <h5>{data3[68].content}</h5>
+                        {/* <br /> */}
                     </div>
-                    <hr />
+                    
+
                 </div>
                 <div className="mainfake">
-                    <img className="reimage" src={data2[91].urlToImage} alt="loding...." />
+                    <img className="reimage" src={data2[91].urlToImage} alt="loading" />
                     <div className="recontant">
-                        <Link to={`/ClickPage/${data2[91].title}`} state={data2[91]}>
-                            <h5 className="">{data2[91].title} </h5>
+                        <Link to={`/Info/${data2[91].title}`} state={data2[91]}>
+                            <h4 className="">{data2[91].title} </h4>
                         </Link>
-                        <p>{data2[91].content}</p>
-                        <br />
+                        <h5>{data2[91].content}</h5>
+                        {/* <br /> */}
                     </div>
-                    <hr />
+                    
+
                 </div>
             </div>
             {/* <button

@@ -1,0 +1,146 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    .TopHomePage {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        /* width: 280px; */
+    }
+
+    .boxPage1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 350px;
+        height: 300px;
+
+    }
+
+    .boxPage2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 350px;
+        height: 200px;
+
+    }
+
+    .boxPage3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 350px;
+        height: 200px;
+    }
+
+    .photo1 {
+        width: 350px;
+        height: 300px;
+    }
+    .TopTitle
+    {
+        width: 300px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    .photo2
+    {
+        width: 350px;
+        height: 200px;
+    }
+    .TopTitle2
+    {
+        width: 300px;
+        left: 10px;
+        bottom: 10px;
+    }
+    .TopTitle3
+    {
+        width: 300px;
+        left: 10px;
+    }
+    .oneElement
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .latestArticle
+    {
+        width: 280px;
+    }
+    .TheLatest
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .latestImage
+    {
+        width: 330px;
+        height: 250px;
+    }
+    .link
+    {
+        width: 310px;
+    }
+    .BothPart
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .latestArticle
+    {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .latestArticleImage
+    {
+        width: 350px;
+        height: 370px;
+    }
+    .tata
+    {
+        width: 350px;
+        margin-left: 55px;
+        padding: 10px;
+    }
+    .bigImage
+    {
+        width: 350px;
+        height: 450px;
+        padding: 10px;
+    }
+    .baada
+    {
+        width: 340px;
+        padding: 10px;
+    }
+    .Big
+    {
+        margin-top: -90px;
+    }
+    .comment
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .side-box
+    {
+        border-bottom: 2px solid fuchsia;
+        border-right: none;
+        width: 355px;
+    }
+    .mainfake
+    {
+        padding: 10px;
+        /* width: 280px; */
+    }
+    .reimage
+    {
+        width: 350px;
+    }
+    .recontant
+    {
+        width: 340px;
+    }
+}

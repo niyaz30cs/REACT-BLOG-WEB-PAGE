@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
+import "./Home2.css";
 function Latest(props) {
     const [count, setCount] = useState(4);
     console.log("Props", props.props);
@@ -10,57 +11,59 @@ function Latest(props) {
     return (
         <div>
             <div>
-                <h1 className="lines">Latest Articles</h1>
+                <h1 className="LatestArticlesLines">Latest Articles</h1>
 
-                <div className="mainFirst">
-                    <img className="mmypic" src={data1[55].urlToImage} alt="lod.." />
-                    <div className="sistum">
+                <div className="latestArticle">
+                    <img className="latestArticleImage" src={data1[55].urlToImage} alt="lod.." />
+                    <div className="tata">
                         <Link to={`/Info/${data1[55].title}`} state={data1[55]}>
                             <h4 className="heading">{data1[55].title} </h4>
                         </Link>
-                        <p>{data1[55].content}</p>
-                        <p className='published'>{data1[55].publishedAt}</p>
+                        <h5>{data1[55].content}</h5>
+                        <p>{data1[55].publishedAt}</p>
                     </div>
                 </div>
-                <div className="mainFirst">
-                    <img className="mmypic" src={data3[55].urlToImage} alt="lod.." />
-                    <div className="sistum">
+
+
+                <div className="latestArticle">
+                    <img className="latestArticleImage" src={data3[17].urlToImage} alt="lod.." />
+                    <div className="tata">
                         <Link to={`/Info/${data3[55].title}`} state={data3[55]}>
                             <h4 className="heading">{data3[55].title} </h4>
                         </Link>
-                        <p>{data3[55].content}</p>
-                        <p className='published'>{data3[55].publishedAt}</p>
+                        <h5>{data3[55].content}</h5>
+                        <p>{data3[55].publishedAt}</p>
                     </div>
                 </div>
-                <div className="mainFirst">
-                    <img className="mmypic" src={data5[55].urlToImage} alt="lod.." />
-                    <div className="sistum">
+
+
+                <div className="latestArticle">
+                    <img className="latestArticleImage" src={data5[55].urlToImage} alt="lod.." />
+                    <div className="tata">
                         <Link to={`/Info/${data5[55].title}`} state={data5[55]}>
                             <h4 className="heading">{data5[55].title} </h4>
                         </Link>
-                        <p>{data5[55].content}</p>
-                        <p className='published'>{data5[55].publishedAt}</p>
+                        <h5>{data5[55].content}</h5>
+                        <p>{data5[55].publishedAt}</p>
                     </div>
                 </div>
-                <div className="mainFirst">
-                    <img className="mmypic" src={data2[55].urlToImage} alt="lod.." />
-                    <div className="sistum">
+
+
+                <div className="latestArticle">
+                    <img className="latestArticleImage" src={data2[55].urlToImage} alt="lod.." />
+                    <div className="tata">
                         <Link to={`/Info/${data2[55].title}`} state={data2[55]}>
                             <h4 className="heading">{data2[55].title} </h4>
                         </Link>
-                        <p>{data2[55].content}</p>
-                        <p className='published'>{data2[55].publishedAt}</p>
+                        <h5>{data2[55].content}</h5>
+                        <p>{data2[55].publishedAt}</p>
                     </div>
                 </div>
+
+
             </div>
-            <p
-                onClick={() => {
-                    setCount(count + 4);
-                }}
-                className="lM"
-            >
-                Load More ⬇️
-            </p>
+            <button onClick={() => { setCount(count + 4); }}
+                className="lM">Load More ⬇️</button>
         </div>
     );
     // } else {
